@@ -1,0 +1,52 @@
+.links {
+  font-size: 20px;
+  color: #9a39f5;
+}
+
+p {
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-size: 35px;
+  text-shadow: 5px 5px 5px #5a00af;
+}
+h1 {
+  font-family: "Dancing Script", cursive;
+  text-shadow: 5px 5px 5px #5a00af;
+}
+h3 {
+  font-family: "Dancing Script", cursive;
+  text-shadow: 5px 5px 5px #5a00af;
+}
+
+h5 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h6 {
+  font-family: "Montserrat", sans-serif;
+  color: #5a00af;
+}
+
+.panel-principal {
+  height: 50%;
+  padding-top: 56px;
+  background-color: #b5838d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.panel-secundario {
+  height: 45%;
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer {
+  background-color: #f8f9fa;
+}
+
+.pointer {
+  cursor: pointer;
+}
