@@ -30,7 +30,9 @@ h6 {
 .panel-principal {
   height: 50%;
   padding-top: 56px;
+  padding-bottom: 50px;
   background-color: #b5838d;
+  background-image: linear-gradient(#c47686, pink);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,15 +40,24 @@ h6 {
 
 .panel-secundario {
   height: 45%;
+  padding-top: 40px;
+  padding-bottom: 35px;
   background-color: pink;
+  background-image: linear-gradient(pink, #f8f9fa);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
   background-color: #f8f9fa;
 }
 
 .pointer {
   cursor: pointer;
+}
+
+.link-contactos {
+  color: darkmagenta;
 }

@@ -1,10 +1,10 @@
-let contactNav = document.querySelector("#contactNav");
-let redes = document.querySelector("#redes");
+let home = document.querySelector("#home");
+let inicio = document.querySelector("#inicio");
 
-contactNav.addEventListener("click", scrollContact, false);
+home.addEventListener("click", scrollInicio, false);
 
-function scrollContact(e) {
-  redes.scrollIntoView({ behavior: "smooth" });
+function scrollInicio(e) {
+  inicio.scrollIntoView({ behavior: "smooth" });
 }
 
 let about = document.querySelector("#about");
@@ -16,13 +16,13 @@ function scrollAboutMe(e) {
   aboutme.scrollIntoView({ behavior: "smooth" });
 }
 
-let home = document.querySelector("#home");
-let inicio = document.querySelector("#inicio");
+let contactNav = document.querySelector("#contactNav");
+let redes = document.querySelector("#redes");
 
-home.addEventListener("click", scrollInicio, false);
+contactNav.addEventListener("click", scrollContact, false);
 
-function scrollInicio(e) {
-  inicio.scrollIntoView({ behavior: "smooth" });
+function scrollContact(e) {
+  redes.scrollIntoView({ behavior: "smooth" });
 }
 
 let github = document.getElementById("github");

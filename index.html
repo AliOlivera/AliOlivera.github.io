@@ -23,39 +23,44 @@
     />
   </head>
   <body>
-    <div>
-      <nav class="navbar fixed-top navbar-expand-xl navbar-light bg-light">
-        <span class="navbar-brand">Alina Olivera</span>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="navbaricon192x192.png" alt="AO" width="30" height="30" class="d-inline-block align-text-top">
+          Ali Olivera
+        </a>
         <button
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarScroll"
-          aria-controls="navbarScroll"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse right" id="navbarScroll">
-          <ul class="navbar-nav ms-lg-auto">
-            <li class="nav-item">
-              <a class="nav-link" id="home" href="javascript:void(0)">Inicio</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" id="home" href="javascript:void(0)">
+                Inicio <span class="sr-only"></span
+              ></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" id="about" href="javascript:void(0)"
-                >Sobre Mi</a
-              >
+              <a class="nav-link" id="about" href="javascript:void(0)">
+                Sobre Mi
+              </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" id="contactNav" href="javascript:void(0)"
-                >Contacto</a
-              >
+              <a class="nav-link" id="contactNav" href="javascript:void(0)">
+                Contacto
+              </a>
             </li>
           </ul>
         </div>
-      </nav>
-    </div>
+      </div>
+    </nav>
 
     <div class="container-fluid" id="inicio">
       <div class="row panel-principal">
@@ -74,12 +79,11 @@
           </p>
         </div>
         <div class="col-sm-12 col-md-6 col-lg-6">
-          <div class="content1">
+          <div>
             <img
               src="women-web-developer-with-laptop.png"
-              alt="female developer"
-              width="450"
-              height="370"
+              class="img-fluid"
+              alt="Responsive image"
             />
           </div>
         </div>
@@ -88,7 +92,7 @@
 
     <div class="container-fluid" id="aboutme">
       <div class="row panel-secundario">
-        <div class="col">
+        <div class="col-sm-12 col-md-6 col-lg-3">
           <h1>Trabajo con:</h1>
           <ol>
             <li><h5>HTML</h5></li>
@@ -99,7 +103,7 @@
             <li><h5>JQUERY</h5></li>
           </ol>
         </div>
-        <div class="col">
+        <div class="col-sm-12 col-md-6 col-lg-3">
           <img
             class="centrado"
             height="200"
@@ -108,17 +112,18 @@
             alt="tecnologias"
           />
         </div>
-        <div class="col">
+        <div class="col-sm-12 col-md-6 col-lg-3">
           <h1>Mis hobbies son:</h1>
           <ul>
-            <li><h5>MUSICA</h5></li>
-            <li><h5>PLAYA</h5></li>
-            <li><h5>BICICLETA</h5></li>
-            <li><h5>AVENTURAS DE POINT AND CLICK</h5></li>
-            <li><h5>APRENDER</h5></li>
+            <li><h5>Escuchar música</h5></li>
+            <li><h5>Ir a la playa</h5></li>
+            <li><h5>Andar en bicicleta</h5></li>
+            <li><h5>Juegos de point and click</h5></li>
+            <li><h5>Mirar series y pelis</h5></li>
+            <li><h5>Aprender</h5></li>
           </ul>
         </div>
-        <div class="col">
+        <div class="col-sm-12 col-md-6 col-lg-3">
           <img
             class="centrado"
             width="300"
@@ -132,32 +137,35 @@
       <div class="container-fluid">
         <div class="row">
           <h3>Si querés contactarme, cliqueá acá:</h3>
-          <div class="col-sm-4 col-md-4 col-lg-4">
+          <div class="col-sm-4 col-md-4 col-lg-4 text-center link-contactos">
             <img
-              class="pointer"
+              class="pointer d-block m-auto"
               id="github"
               height="100"
               src="gitvioleta.png"
               alt="github logo"
-            /> Github
+            />
+            Github
           </div>
-          <div class="col-sm-4 col-md-4 col-lg-4">
+          <div class="col-sm-4 col-md-4 col-lg-4 text-center link-contactos">
             <img
-              class="pointer"
+              class="pointer d-block m-auto"
               id="linkedin"
               height="100"
               src="-linkedin-violet.png"
               alt="linkedin logo"
-            /> Linkedin
+            />
+            Linkedin
           </div>
-          <div class="col-sm-4 col-md-4 col-lg-4">
+          <div class="col-sm-4 col-md-4 col-lg-4 text-center link-contactos">
             <img
-              class="pointer"
+              class="pointer d-block m-auto"
               id="mail"
               height="100"
               src="mailvioleta.png"
               alt="gmail logo"
-            /> Mail
+            />
+            Mail
           </div>
         </div>
       </div>
