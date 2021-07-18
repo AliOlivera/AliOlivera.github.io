@@ -61,3 +61,19 @@ h6 {
 .link-contactos {
   color: darkmagenta;
 }
+
+ .boton {
+  width: 100%;
+  text-align: center; 
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color:#f8f9fa ;
+  background-image: linear-gradient(#f8f9fa, #c47686);
+} 
+
+.btn-light {
+  color: darkmagenta!important;
+  background-color: #d3d3d3;
+  background-image: linear-gradient(#f8f9fa, #c47686);
+  
+}

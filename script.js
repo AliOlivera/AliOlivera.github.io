@@ -56,3 +56,12 @@ function abrirMail() {
     configuracion_ventana
   );
 }
+
+let volver = document.querySelector("#volver");
+let arriba = document.querySelector("#arriba");
+
+volver.addEventListener("click", volverInicio, false);
+
+function volverInicio(e) {
+  arriba.scrollIntoView({ behavior: "smooth" });
+}
